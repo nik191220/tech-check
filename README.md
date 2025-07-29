@@ -1,20 +1,4 @@
-## Media queries
-```css
-/* Мобильные устройства */
-@media (max-width: 600px) {
-  nav { display: none; }
-}
 
-/* Планшеты */
-@media (min-width: 601px) and (max-width: 1024px) {
-  nav { font-size: 16px; }
-}
-
-/* Десктопы */
-@media (min-width: 1025px) {
-  nav { font-size: 18px; }
-}
-```
 ## Specificity
 Специфічність (specificity) селекторів у CSS — це правило, яке визначає, який саме стиль буде застосовано до елемента, якщо на нього діє кілька різних селекторів.
 
@@ -74,17 +58,6 @@
 Змінює формулу розрахунку фактичної ширини та висоти об'єкта
 * `border`, `padding` - частина заданої ширини і висоти
 
-## Animations
-* `transform` - трансформація елементу. Переміщення по осям (`translate`, масштабування `scale`, поворот `rotate`.
-  `transform: rotate(15deg) scale(1.2);`
-* `transition` - плавні переходи. Прописуємо `transition-property`, `dutation`, `timing - function`
-* ```css
-      /* Animation demo */
-      @keyframes bounce {
-        0%   { transform: translateY(0); }
-        30%  { transform: translateY(-40px); }
-      }
-  ```
 
 | Одиниця | Тип       | Опис                                    |
 | ------- | --------- | --------------------------------------- |
