@@ -74,7 +74,19 @@
 Змінює формулу розрахунку фактичної ширини та висоти об'єкта
 * `border`, `padding` - частина заданої ширини і висоти
 
-
-
+## Animations
+* `transform` - трансформація елементу. Переміщення по осям (`translate`, масштабування `scale`, поворот `rotate`.
+  `transform: rotate(15deg) scale(1.2);`
+* `transition` - плавні переходи. Прописуємо `transition-property`, `dutation`, `timing - function`
+* ```css
+      /* Animation demo */
+      @keyframes bounce {
+        0%   { transform: translateY(0); }
+        30%  { transform: translateY(-40px); }
+        50%  { transform: translateY(0); }
+        70%  { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+      }
+  ```
 
 
