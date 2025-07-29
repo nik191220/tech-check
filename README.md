@@ -83,10 +83,14 @@
       @keyframes bounce {
         0%   { transform: translateY(0); }
         30%  { transform: translateY(-40px); }
-        50%  { transform: translateY(0); }
-        70%  { transform: translateY(-20px); }
-        100% { transform: translateY(0); }
       }
   ```
+
+  | Одиниця | Тип       | Опис                                    |
+| ------- | --------- | --------------------------------------- |
+| `px`    | Абсолютна | Пікселі. Фіксований розмір.             |
+| `%`     | Відносна  | Відсоток від батьківського елемента.    |
+| `vw`    | Відносна  | 1% ширини вікна (viewport).             |
+| `vh`    | Відносна  | 1% висоти вікна (viewport).             |
 
 
